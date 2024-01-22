@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font garamond & poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/de1f287b75.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-eb {
+            font-family: 'EB Garamond', sans-serif;
+        }
+
+        .font-pop {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="container lg:px-14 mt-14 mx-auto font">
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu text-[#707070] font-pop menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Cases</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <img class="h-10 w-10" src="./images/business.png" alt="">
+                <a class="btn btn-ghost text-3xl text-[#414040] font-extrabold font-eb">Justice</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu text-[#707070] font-pop menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a>Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a>Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a>Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn font-pop bg-[#B68C5A] text-white">Free Consulations</a>
+            </div>
+        </div>
+        <div
+            class="mt-16 text-white bg-no-repeat lg:bg-cover bg-center rounded-xl relative w-full h-[550px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner.png)]">
+            <div class="flex-row justify-center text-center items-center">
+                <h1 class=" font-eb font-extrabold pt-28 text-3xl lg:text-7xl ">We Provide Effective <br>
+                    Legal Solutions</h1>
+                <p class="font-pop my-10 w-2/3 mx-auto ">There are many variations of passages of Lorem Ipsum
+                    available,
+                    but
+                    the
+                    majority have suffered alteration
+                    in some form, by injected humour.</p>
+            </div>
+            <div class=" space-y-2 lg:space-y-0 flex flex-col lg:flex-row font-pop items-center justify-center">
+                <input type="text" placeholder="Search your services" class="input border-none mr-4 w-full max-w-xs" />
+                <a class="btn font-pop border-none bg-[#B68C5A] text-white px-12">Search</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
